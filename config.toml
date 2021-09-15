@@ -1,0 +1,307 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-devresume-theme'
+
+
+
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Vinodhkumar Kannan"
+        tagline = "Senior Azure Consultant - Presales"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Leeds, West Yorkshire, UK"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+44 741 129 0129"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "vkannan@icloud.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.vkannan.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = ""
+        [[params.skills.list.items]]
+        details = "Presales Engagement"
+        [[params.skills.list.items]]
+        details = "Microsoft Azure"
+        [[params.skills.list.items]]
+        details = "Microsoft Power BI"
+        [[params.skills.list.items]]
+        details = "Microsoft Windows"
+        [[params.skills.list.items]]
+        details = "Microsoft Visio"
+        [[params.skills.list.items]]
+        details = "Microsoft Excel"
+        [[params.skills.list.items]]
+        details = "Cloud Migration"
+        [[params.skills.list.items]]
+        details = "Data Modelling"
+        [[params.skills.list.items]]
+        details = "Data Analysis & Visualisation"
+        [[params.skills.list.items]]
+        details = "Datacenter Operations"
+        [[params.skills.list.items]]
+        details = "Datacenter Migration"        
+        [[params.skills.list.items]]
+        details = "Technical Presentation"
+        [[params.skills.list.items]]
+        details = "Technical Documentation"
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Electronics and Communication Engineering"
+        university = "Anna University - Chennai - Tamilnadu - India"
+        dates = "2003 - 2007"
+
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "AZ300 - Microsoft Azure Architect Technologies"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "A highly dedicated, motivated and performance-driven professional with To-Do and Can-Do attitude having 13+ years of experience in Workplace assets, Datacenter environment and Microsoft Azure Cloud with a blend of Microsoft Business Intelligence skills to analyse and visualise complex data. Seeking an opportunity to use my skills and abilities with a fast growing technologies in your esteemed organisation."
+
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        name = "AZ300 - Microsoft Azure Architect Technologies"
+        dates = "May'17 - Aug'21"
+        mcp = "MCPID - 12345"
+        [[params.certifications.list]]
+        name = "AZ301 - Microsoft Azure Architect Design"
+        dates = "May'17 - Aug'21"
+        mcp = "MCPID - 12345"
+        [[params.certifications.list]]
+        name = "778 - Analysing and Visualising Data with Power BI"
+        dates = "May'17 - Aug'21"
+        mcp = "MCPID - 12345"
+        [[params.certifications.list]]
+        name = "MCSA - Windows Server 2012"
+        dates = "May'17 - Aug'21"
+        mcp = "MCPID - 12345"
+        [[params.certifications.list]]
+        name = "MCSE - Cloud Platform and Infrastructure"
+        dates = "May'17 - Aug'21"
+        mcp = "MCPID - 12345"
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Infrastructure Consultant"
+        dates = "May'17 - Aug'21"
+        company = "Wipro Technologies - Leeds, UK"
+        details = "As an Infrastructure Consultant, responsible for On-Premise Datacenter and Public Cloud (Azure) operations. Handled a team of 8 members on thier day to day operations and supported them of Datacenter and Cloud related activities and projects as a Consultant. Interact with customers on daily basis for requirements gathering, project reviews, recurring meetings, reports discussions etc.,"
+        [[params.experience.list.items]]
+        details = "Solid understanding and experience in cloud computing based services architecture, technical design and impelementation including IaaS and PaaS"
+        [[params.experience.list.items]]
+        details = "Designed and Implemented Azure infrastructure landing zone using Hub and Spoke methodology"
+        [[params.experience.list.items]]
+        details = "Designed and configured Azure Virtual Networks, Subnets, Firewall and Routing as per the best practices"
+        [[params.experience.list.items]]
+        details = "Deployed Azure IaaS Virtual Machines and Azure PaaS Instanced into secure Virtual Networks and Subnets"
+        [[params.experience.list.items]]
+        details = "Transformation of IT landscape from legacy Datacenter to hybrid cloud"
+        [[params.experience.list.items]]
+        details = "Cost comparison and analysis of virtual machines between on-premise and cloud model"    
+        [[params.experience.list.items]]
+        details = "Connected virtual machine and cloud services in virtual network to the internet using Azure load balancer"    
+        [[params.experience.list.items]]
+        details = "Implementing high availability of IaaS and PaaS infrastructure"
+        [[params.experience.list.items]]
+        details = "Designing Network Security Groups to control inbound and outbound network connections"
+        [[params.experience.list.items]]
+        details = "Creating High Level and Low Level Design documnet in addition to process document needed for the operations team"
+        [[params.experience.list.items]]
+        details = "Designed and Implemente and Enterprise model reporting solution using Microsoft Power BI for customer deliverable reports"                   
+        [[params.experience.list.items]]
+        details = "Converted the infrastructure state into a readable dashboard with RAG status for senior management review"    
+        [[params.experience.list.items]]
+        details = "Implemented the SaaS model of BI gateway to synchronise the reports from on-premise reporting server to Office 365"    
+        [[params.experience.list.items]]
+        details = "Automation of manual reports towards  zero touch solution with automatic scheduling functionality"    
+        [[params.experience.list.items]]
+        details = "Led a team size of 8 members and responsible for a charge back of ~7M USD monthly"    
+        [[params.experience.list.items]]
+        details = "Responsible for 10 Tier 3 Datacenters across UK, DE, SE and 15 remote locations across EU region"    
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+                            <section class="project-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-6">{{ i18n "certifications" }}</h3>
+                                
+
+                                <ul class="list-unstyled resume-interests-list mb-0">
+                                    {{ range .Site.Params.certifications.list }}
+                                    <li class="mb-2">{{ .name }}     |     {{ .mcp }} | {{ .dates }}</li>
+                                {{ end }}
+                                </ul>
+
+                            </section><!--//project-section-->
+
+
+
+                            
+
+
+                            
+ 
